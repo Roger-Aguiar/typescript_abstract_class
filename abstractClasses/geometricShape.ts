@@ -1,11 +1,11 @@
 export abstract class GeometricShape {
-    side: number;
+    area: number;
 
-    constructor(side: number) {
-        this.side = side
+    constructor(area: number) {
+        this.area = area
     }
 
-    abstract calculateArea(): GeometricShape;
+    abstract calculateArea(side1?: number, side2?: number): GeometricShape;
 
     displayArea(area: number) {
         return `Area: ${area.toString()}`;        

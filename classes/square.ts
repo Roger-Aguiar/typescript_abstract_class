@@ -1,12 +1,12 @@
 import { GeometricShape } from "../abstractClasses/geometricShape";
 
 export class Square extends GeometricShape{    
-    constructor(side: number) {
-        super(side);
+    constructor(area: number) {
+        super(area);
     }
 
     calculateArea(): GeometricShape {
-        return new Square(this.side * this.side);
+        return new Square(this.area * this.area);
     }
 
 }

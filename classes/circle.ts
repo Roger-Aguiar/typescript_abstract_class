@@ -1,11 +1,11 @@
 import { GeometricShape } from "../abstractClasses/geometricShape";
 
 export class Circle extends GeometricShape{
-    constructor(radius: number){
-        super(radius);
+    constructor(area: number){
+        super(area);
     }
     
     calculateArea(): GeometricShape {
-        return new Circle((3.14 *(this.side * this.side)));
+        return new Circle((3.14 *(this.area * this.area)));
     }
 }
