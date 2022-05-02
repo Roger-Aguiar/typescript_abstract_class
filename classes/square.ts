@@ -1,6 +1,6 @@
-class Square extends GeometricShape{
-    area: number;
+import { GeometricShape } from "../abstractClasses/geometricShape";
 
+export class Square extends GeometricShape{    
     constructor(side: number) {
         super(side);
     }

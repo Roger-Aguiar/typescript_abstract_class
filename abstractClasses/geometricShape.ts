@@ -1,4 +1,4 @@
-abstract class GeometricShape {
+export abstract class GeometricShape {
     side: number;
 
     constructor(side: number) {
@@ -7,7 +7,7 @@ abstract class GeometricShape {
 
     abstract calculateArea(): GeometricShape;
 
-    displayArea(area: number): void {
-        console.log(`Area: ${area}`);
+    displayArea(area: number) {
+        return `Area: ${area.toString()}`;        
     }
 }

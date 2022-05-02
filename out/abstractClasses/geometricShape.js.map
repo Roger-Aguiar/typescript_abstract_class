@@ -1,0 +1,1 @@
+{"version":3,"file":"geometricShape.js","sourceRoot":"","sources":["../../abstractClasses/geometricShape.ts"],"names":[],"mappings":";;;AAAA;IAGI,wBAAY,IAAY;QACpB,IAAI,CAAC,IAAI,GAAG,IAAI,CAAA;IACpB,CAAC;IAID,oCAAW,GAAX,UAAY,IAAY;QACpB,OAAO,gBAAS,IAAI,CAAC,QAAQ,EAAE,CAAE,CAAC;IACtC,CAAC;IACL,qBAAC;AAAD,CAAC,AAZD,IAYC;AAZqB,wCAAc"}
